@@ -1,0 +1,12 @@
+# FOLDERS
+bin/
+build/
+logs/
+.obj/
+.obj_tests/
+trash/
+templates/
+
+# FILES
+a.out
+
