@@ -27,7 +27,7 @@ OBJECTS:=$(subst $(TMPDIR)/$(SRCDIR)/main.o,,$(_OBJECTS))
 #SHAREDIR:=../shared
 #SHAREDLIB:=$(SHAREDIR)/lib
 #SHAREDHEADERS:=$(SHAREDIR)/include
-_EXTLIBS:=sfml-system
+_EXTLIBS:=cppunit sfml-system
 EXTLIBS:=$(addprefix -l,$(_EXTLIBS))
 
 # TESTS
